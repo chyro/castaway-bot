@@ -1,0 +1,2 @@
+xwininfo
+time import -window 0x2e001f4 /tmp/castaway.png

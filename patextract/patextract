@@ -1,0 +1,1 @@
+patextract ./Pictures/castaway/beetle_sample.png 815 730 2 2 > Pictures/castaway/beetle3.pat
