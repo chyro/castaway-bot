@@ -17,8 +17,9 @@ Adding more patterns should not be necessary at this stage. The only steps to us
 
 ## Comparison with AutoIt
 
-* xTest screenshot takes longer than convenient
-* AutoIt can search for patterns through the screen directly. It can also search for pixels of a specific color, which can be convenient.
+I had in the past done a similar bot on Windows using AutoIt. I found it convenient, and failed for the longest time to find any equivalent Linux tool. Here are my impressions on comparing the two automation systems:
+* xTest screenshot takes longer than convenient - things have moved by the time the patterns are matched.
+* AutoIt can search for patterns through the screen directly. It can also search for pixels of a specific color, which is much faster and can sometimes be sufficient.
 * AutoIt can detect and even intercept keypresses, which can conveniently be used to trigger or interrupt actions.
 * AutoIt can be used to create the patterns directly, rather than taking screenshots and using gimp to isolate the specific areas.
 
