@@ -1,5 +1,4 @@
-#png2pat infile x y width height
-#patextract ./Pictures/Castaway_beetle.png 815 730 2 2 > Pictures/castaway_beetle3.pat
+#!/bin/bash
 
 SCREEN=/tmp/castaway.png
 DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
