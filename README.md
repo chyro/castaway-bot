@@ -7,7 +7,7 @@ Castaway's scriptable part is on the maps that have exclusively passive ennemies
 * if injured, wait until healed
 * look for ennemies, and attack them
 
-Looking for items, ennemies, and injuries are all done based on patterns. Two methods were used to create patterns. The first was using patextract directly on screenshots ("patextract pattners" folder), but proved inconvenient and unreliable. The second was taking screenshot, isolating the patterns using The Gimp, then using png2pat to convert them all.
+Looking for items, ennemies, and injuries are all done based on "patterns", i.e a small group of pixels unmistakenly identifying the object, in a format (PAT) usable by xTest. Two methods were used to create patterns. The first was using patextract directly on screenshots ("patextract patterns" folder), but proved inconvenient and unreliable. The second was taking screenshot, isolating the patterns using The Gimp, then using png2pat to convert them all.
 
 Adding more patterns should not be necessary at this stage. The only steps to use this should be:
 * download & extract
